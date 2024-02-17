@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.text-gradient{
+    background: linear-gradient(to right,#4d2fe5,#d51fd5,#fb767c);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-primary-gradient
+{
+  background: linear-gradient(to right,#3f358e,#683188,#714b7d);
+}
+
+.bg-primary
+{
+  --tw-bg-opacity: 1;
+  background-color: rgb(67 67 125 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-border
+{
+    border: 2px solid transparent;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    background: linear-gradient(#22223e,#22223e) padding-box,linear-gradient(to right,#4d2fe5,#d51fd5,#fb767c) border-box;
+  }
